@@ -56,7 +56,7 @@ for event in raw_data['events']:
     """
 
     # avoid all of the events
-    # break
+    break
 
 
 
