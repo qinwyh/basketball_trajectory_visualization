@@ -33,6 +33,8 @@ class Team():
         1610612764: ('#002B5C', 'WAS'),
     }
 
+    team_dict = {item[1]: item[0] for _, item in color_dict.items()}
+
     def __init__(self, id):
         self.id = id
         self.color = Team.color_dict[id][0]
